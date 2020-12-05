@@ -20,7 +20,7 @@ docker-compose run web django-admin startproject my-project .
 docker-compose run web django-admin startapp my-app
 ```
 
-### Give rights
+### Give rights to django-admin files
 ```
 sudo chown -R $USER:$USER .
 ```
