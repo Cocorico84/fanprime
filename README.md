@@ -7,7 +7,10 @@
 ```
 docker-compose up -d
 ```
-
+## Make migration
+```
+docker-compose run web python manage.py migrate
+```
 ## If you want to reuse docker-compose yaml
 
 ### Create a django project
