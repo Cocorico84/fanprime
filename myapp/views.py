@@ -8,6 +8,9 @@ from .forms import SearchForm
 
 
 class CredentialViewSet(viewsets.ModelViewSet):
+    '''
+    Allow to store all of client id and client secret of the differents apps
+    '''
     queryset = Credential.objects.all()
     serializer_class = CredentialSerializer
     permission_classes = [permissions.IsAuthenticated]
