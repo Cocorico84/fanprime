@@ -1,4 +1,4 @@
-# fanprime
+# Fanprime
 
 There are two endpoints:
 * /search : search a user from API twitch
