@@ -1,6 +1,8 @@
 # fanprime
 
-
+There are two endpoints:
+* /search
+* /credential
 
 ## How to launch docker-compose in background
 
