@@ -29,8 +29,3 @@ def get_user(token, client_id, user):
 
     data = r.json()
     return data
-
-
-if __name__ == "__main__":
-    pass
-    # print(get_user(get_token(client_id, client_secret),client_id, "solary"))
