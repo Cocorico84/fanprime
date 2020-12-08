@@ -1,0 +1,11 @@
+{% block content %}
+  <form method="get">
+      {{ form.as_p }}
+    <button type="submit">search</button>
+  </form>
+
+  {% if search %}
+    {{ search }}
+  {% endif %}
+
+{% endblock %}
