@@ -35,4 +35,4 @@ DATABASES = {
 * Develop a python script to get information of a user
 * Build the API
 * Integrate python script in API
-* Create a front with a form
+* Make a front page with a form
