@@ -30,9 +30,9 @@ DATABASES = {
 ```
 ## Steps to build this project
 
-* Create a developer account for twitch API
+* Register a developer account for twitch API
 * Create an app to get client id and client secret
 * Develop a python script to get information of a user
-* Create the API
+* Build the API
 * Integrate python script in API
 * Create a front with a form
